@@ -19,12 +19,12 @@ func init() {
 
 func main() {
 
-	buddha := sage{
-		Name:  "Buddha",
-		Motto: "The belief of no beliefs",
+	rust := sage{
+		Name:  "Rust",
+		Motto: "A language empowering everyone to build reliable and efficient software",
 	}
 
-	err := tpl.Execute(os.Stdout, buddha)
+	err := tpl.Execute(os.Stdout, rust)
 	if err != nil {
 		log.Fatalln(err)
 	}
