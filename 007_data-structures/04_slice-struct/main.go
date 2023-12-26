@@ -19,32 +19,32 @@ func init() {
 
 func main() {
 
-	buddha := sage{
-		Name:  "Buddha",
-		Motto: "The belief of no beliefs",
+	rust := sage{
+		Name:  "Rust",
+		Motto: "A language empowering everyone to build reliable and efficient software",
 	}
 
-	gandhi := sage{
-		Name:  "Gandhi",
-		Motto: "Be the change",
+	golang := sage{
+		Name:  "Go",
+		Motto: "Build simple, secure, scalable systems with Go",
 	}
 
-	mlk := sage{
-		Name:  "Martin Luther King",
-		Motto: "Hatred never ceases with hatred but with love alone is healed.",
+	docker := sage{
+		Name:  "Docker",
+		Motto: "Accelerate how you build, share, and run applications",
 	}
 
-	jesus := sage{
-		Name:  "Jesus",
-		Motto: "Love all",
+	kubernetes := sage{
+		Name:  "Kubernetes",
+		Motto: "Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications",
 	}
 
-	muhammad := sage{
-		Name:  "Muhammad",
-		Motto: "To overcome evil with good is good, to resist evil by evil is evil.",
+	aws := sage{
+		Name:  "AWS",
+		Motto: "AWS Cloud",
 	}
 
-	sages := []sage{buddha, gandhi, mlk, jesus, muhammad}
+	sages := []sage{rust, golang, docker, kubernetes, aws}
 
 	err := tpl.Execute(os.Stdout, sages)
 	if err != nil {
