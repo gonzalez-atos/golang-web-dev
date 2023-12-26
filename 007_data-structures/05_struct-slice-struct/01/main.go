@@ -30,19 +30,19 @@ func init() {
 
 func main() {
 
-	b := sage{
-		Name:  "Buddha",
-		Motto: "The belief of no beliefs",
+	rust := sage{
+		Name:  "Rust",
+		Motto: "A language empowering everyone to build reliable and efficient software",
 	}
 
-	g := sage{
-		Name:  "Gandhi",
-		Motto: "Be the change",
+	golang := sage{
+		Name:  "Go",
+		Motto: "Build simple, secure, scalable systems with Go",
 	}
 
-	m := sage{
-		Name:  "Martin Luther King",
-		Motto: "Hatred never ceases with hatred but with love alone is healed.",
+	docker := sage{
+		Name:  "Docker",
+		Motto: "Accelerate how you build, share, and run applications",
 	}
 
 	f := car{
@@ -57,7 +57,7 @@ func main() {
 		Doors:        4,
 	}
 
-	sages := []sage{b, g, m}
+	sages := []sage{rust, golang, docker}
 	cars := []car{f, c}
 
 	data := items{
