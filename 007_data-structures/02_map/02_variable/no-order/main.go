@@ -7,11 +7,12 @@ import (
 func main() {
 
 	sages := map[string]string{
-		"India":    "Gandhi",
-		"America":  "MLK",
-		"Meditate": "Buddha",
-		"Love":     "Jesus",
-		"Prophet":  "Muhammad"}
+		"India":  "Docker",
+		"Google": "Go",
+		"GitHub": "Git",
+		"K8s":    "Kubernetes",
+		"Cloud":  "AWS",
+	}
 
 	for k, v := range sages {
 		fmt.Println(k, " - ", v)
